@@ -1,6 +1,7 @@
 Enables user to create an account, verify their account using their own email address
 and fowards some attachment to the review committe.
 the review commite can do the following after submission of the attchment by the user
-1 Able to return the doccument to the use rto make some few collections, the user can the upload the doccument after corrections
+ Able to return the doccument to the use rto make some few collections, the user can the upload the doccument after corrections
 and recive a message that their doccument has been submitted and recived
-2 Foward the doc to the Admin who acknowledeges that the he/she has recived the doccument
+ Foward the doc to the Admin who acknowledeges that the he/she has recived the doccument.
+IT IS ALL MADE OF REACT
