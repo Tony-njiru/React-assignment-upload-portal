@@ -1,13 +1,168 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/*login page */
+
+.loginpage{
+  text-align: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.loginbody {
+  padding: 3em;
+  background-color: #fff;
+  -webkit-box-shadow:0px 0px 4px 1px rgb(189, 189, 189);
+  -moz-box-shadow:0px 0px 4px 1px rgb(189, 189, 189);
+  -o-box-shadow:0px 0px 4px 1px rgb(189, 189, 189);
+  -ms-box-shadow:0px 0px 4px 1px rgb(189, 189, 189);
+  box-shadow:0px 0px 4px 1px rgb(189, 189, 189);
+  width: 40%;
+  margin: 0 auto;
 }
+.loginbody {
+  width: 50%;
+}
+.loginpage input[type="text"],
+.loginpage input[type="email"],
+.loginpage input[type="password"] {
+  font-size: 1em;
+  padding: 0.9em 1em;
+  width: 50%;
+  color: #999;
+  outline: none;
+  border: 1px solid #E2DCDC;
+  background: #FFFFFF;
+  margin: 0 0 1em 0;
+  -webkit-transition:.5s all;
+  -moz-transition:.5s all;
+  -o-transition:.5s all;
+  -ms-transition:.5s all;
+  transition:.5s all;
+  -webkit-appearance:none;
+}
+
+.loginpage input[type="text"]:focus,
+.loginpage input[type="email"]:focus,
+.loginpage input[type="password"]:focus{
+  border-color:#0280e1;
+}
+.loginpage input[type="submit"] {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: rgb(255, 253, 253);
+  background: #02e1b1;
+  width: 55%;
+  padding: .8em 1em;
+  font-size: 1em;
+  margin: 0.5em 0 0;
+  -webkit-transition:.5s all;
+  -moz-transition:.5s all;
+  -o-transition:.5s all;
+  -ms-transition:.5s all;
+  transition:.5s all;
+  text-transform: uppercase;
+  -webkit-appearance:none;
+}
+.login-page input[type="submit"]:hover {
+  background: #c5089c;
+  letter-spacing: 6px;
+}
+
+.loginpage label.checkbox {
+  float: left;
+  margin: 0;
+}
+
+.forgotgrid {
+  margin-top: 2em;
+}
+.forgot {
+  float: right;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: lightgray;
+}
+.items{
+  display: flex;
+  margin-right: 10px;
+  padding: 10px;
+}
+.item{
+  margin: 20px;
+  list-style: none;
+}
+.link{
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+.logout{
+  background-color: tomato;
+  margin-right: 20px;
+  color: white;
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.uploadform{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: lightgray;
+  margin-top: 50px;
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.7);
+  height: 80vh;
+}
+
+.uploadform>input{
+  font-size: 1em;
+  padding: 0.9em 1em;
+  width: 50%;
+  color: #999999;
+  outline: none;
+  border: 1px solid #E2DCDC;
+  border-radius: 10px;
+  background: #FFFFFF;
+  margin: 0 0 1em 0;
+  -webkit-transition:.5s all;
+  -moz-transition:.5s all;
+  -o-transition:.5s all;
+  -ms-transition:.5s all;
+  transition:.5s all;
+  -webkit-appearance:none;
+}
+
+.uploadform>textarea{
+  font-size: 1em;
+  padding: 0.9em 1em;
+  width: 50%;
+  color: #999;
+  outline: none;
+  border: 1px solid #E2DCDC;
+  border-radius: 10px;
+  background: #FFFFFF;
+  margin: 0 0 1em 0;
+  -webkit-transition:.5s all;
+  -moz-transition:.5s all;
+  -o-transition:.5s all;
+  -ms-transition:.5s all;
+  transition:.5s all;
+  -webkit-appearance:none;
+}
+
+.uploadfile{
+  background-color: #0280e1;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  width: 100px;
+  height: 40px;
+  float: left;
+}
+
+
